@@ -1,16 +1,17 @@
 <?php
 
-if (isset($_POST['Name']) && isset($_POST['message'])) {
-    include 'db_conn.php';
-
-
-    echo "Hello";
-
-
+$n = $_POST['stname'];
+$c = $_POST['stclass']; 
+$con = mysqli_connect("localhost","root","","school");
+$sql = "INSERT INTO student details(Student_Name,Student_Class) values('$n','$c')";
+$r=mysqli_query($con,$sql);
+if($r)
+{
+    echo "ADDED";
 }
- else {
-    header("location: Form.html");
-
-
-
+else
+{
+    echo "NOT ADDED";
 }
+
+?>
