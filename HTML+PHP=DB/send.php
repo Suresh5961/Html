@@ -19,7 +19,7 @@ if (isset($_POST['name']) && isset($_POST['message'])) {
 	}else {
 
 		$sql = "INSERT INTO `customer review`(name, message) VALUES('$name', '$message')";
-		$res = mysqli_query($conn, $sql);
+		$res = mysqli_query($conn,$sql);
 
 		if ($res) {
 			echo "Your message was sent successfully!";
