@@ -18,7 +18,7 @@ if (isset($_POST['name']) && isset($_POST['message'])) {
 		header("Location: index.html");
 	}else {
 
-		$sql = "INSERT INTO test(name, message) VALUES('$name', '$message')";
+		$sql = "INSERT INTO `customer review`(name, message) VALUES('$name', '$message')";
 		$res = mysqli_query($conn, $sql);
 
 		if ($res) {
@@ -29,5 +29,5 @@ if (isset($_POST['name']) && isset($_POST['message'])) {
 	}
 
 }else {
-	header("Location: index.html");
+	header("Location: Form.html");
 }
