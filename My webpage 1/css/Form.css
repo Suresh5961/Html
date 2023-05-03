@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pic.jpg);
     height: 100vh;
@@ -13,31 +12,49 @@ header{
 ul{
     float: right;
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 1px;
 }
 li{
     display: inline-block;
 }
 a{
     text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
+    color: #f3ebeb;
+    padding: 6px 22px;
     border: 1px solid transparent;
     transition: 0.5s ease;
 }
 a:hover{
 
-    background-color: #fff;
+    background-color: #f1a5de;
     color: black;
 
 }
 
 ul li.active a{
-    background-color: #fff;
+    background-color: #f1a5de;
     color: black;
 
 }
 .main{
     max-width: 1200px;
     margin: auto;
+}
+
+.tit{
+    text-align:left;
+    color: #f3eeeb;
+    padding: 10px;
+}
+
+form{
+    background: center;
+    background-color: #f3ebeb;
+    padding: 57px;
+    text-align: center;
+    margin: auto;
+    display: table
+    
+
+
 }

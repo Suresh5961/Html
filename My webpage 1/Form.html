@@ -9,38 +9,62 @@
 </head>
 <body>
     <header>
+        <h1 class="tit">ROMAN CRIATION</h1>
         <div class="main">
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li class="active"><a href="./Form.html">Fill Form</a></li>
                 <li><a href="./Aboutpage.html">About</a></li>
-
             </ul>
-
         </div>
+        <form class="forms" method="post" action="">
         
-        
-        <form action="" method="post">
-            
-            <div class="form">
-                <label for="Name">User Name</label>
-                <input name="Name" type="text">
+            <div>   
+                <h1 class="h1t">Aplication Form</h1>
+                <br>
+                <label for="Name">Name: </label><br>
+                <input type="text" name="Name" placeholder="Enter Name" required>
             </div>
             <div>
-                <lable for="password">Password</lable>
-                <input name="password" type="password">
-                
+                <label for="contect">Contect: </label><br>
+                <input type="text" name="contect" maxlength="10" required >
+            </div>
+            <div>
+                <label for="Email">Email:</label>
+                <br>
+                <input type="email" name="Email" required>
 
             </div>
-
-            
-        
-        
-        
-        
-        
+            <div>
+                <label for="Posword">Posword: </label>
+                <br>
+                <input type="password" maxlength="16" name="posword" required>
+                
+            </div>
+            <div>
+                <label for="DOB">DOB: </label>
+                <br>
+                <input type="date" name="DOB">
+            </div>
+            <div>
+                <label for="Gender">Gender: </label>
+                <br>
+                <input type="radio"  name="Gender" value="Male" >Male
+                <input type="radio" name="Gender" value="Female">Female
+            </div>
+            <br>
+            <div>
+                <label for="Resume">Upload Your Resume</label>
+                <input type="file" name="Resume" id="file">
+            </div>    
+            <br>
+            <button>submit</button>
+    
+            </div>
         </form>
     </header>
 </body>
 </html>
+
+
