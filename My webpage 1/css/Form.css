@@ -41,18 +41,3 @@ ul li.active a{
     max-width: 1200px;
     margin: auto;
 }
-
-.para{
-    position: absolute;
-    top: 20%;
-    left: 2%;
-    color: beige;
-    
-}
-.class{
-    position: absolute;
-    top: 60;
-    left: 50;
-
-
-}
