@@ -49,3 +49,10 @@ ul li.active a{
     color: beige;
     
 }
+.class{
+    position: absolute;
+    top: 60;
+    left: 50;
+
+
+}
