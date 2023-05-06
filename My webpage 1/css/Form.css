@@ -41,20 +41,22 @@ ul li.active a{
     margin: auto;
 }
 
-.tit{
+#tit{
     text-align:left;
-    color: #f3eeeb;
-    padding: 10px;
+    color: rgb(250,250,250);
+    padding: 1px;
 }
 
-form{
-    background: center;
-    background-color: #f3ebeb;
-    padding: 57px;
+.forms{
+    display: block;
+    background-color: rgba(102, 57, 57, 0.5);
+    padding: 5%; 
     text-align: center;
-    margin: auto;
-    display: table
-    
+}
+.h1{
+    color: aqua;
+}
 
-
+.tex{
+    color: rgb(30, 133, 243);
 }

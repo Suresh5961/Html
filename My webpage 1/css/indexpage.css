@@ -8,25 +8,23 @@ header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pic.jpg);
     height: 100vh;
     background-size: cover;
-    background-position: center;
-   
-}
+    background-position: center;}
 ul{
     float: right;
     list-style-type: none;
     margin-top: 45px;
 }
+
 li{
     display: inline-block;
 }
+
 a{
     text-decoration: none;
     color: #fff;
     padding: 6px 22px;
     border: 1px solid transparent;
-    transition: 0.5s ease;
-}
-
+    transition: 0.5s ease;}
 
 ul li a:hover{
 
@@ -43,6 +41,7 @@ ul li.active a{
     max-width: 1200px;
     margin: auto;
 }
+
 .title{
     position: absolute;
     top: 50%;
@@ -51,8 +50,8 @@ ul li.active a{
 }
 
 .title{
-    color: #fff;
-    font-size: x-large;
+    color: #e0d2d2;
+    font-size: xx-large;
     font-style: italic;
 }
 
@@ -73,7 +72,4 @@ ul li.active a{
 
 .btn:hover{
     background-color: #f1a5de;
-    color: rgb(48, 4, 92);
-
-
-}
+    color: rgb(48, 4, 92);}

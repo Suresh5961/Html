@@ -9,57 +9,65 @@
 </head>
 <body>
     <header>
-        <h1 class="tit">ROMAN CRIATION</h1>
+        <h1 id="tit">ROMAN CRIATION</h1>
         <div class="main">
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li class="active"><a href="./Form.html">Fill Form</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li class="active"><a href="./Form.html">Sing in</a></li>
                 <li><a href="./Aboutpage.html">About</a></li>
             </ul>
         </div>
-        <form class="forms" method="post" action="">
-        
+        <br>
+        <br>
+        <hr>
+
+        <form class="forms" method="post" action="./services.html">
             <div>   
-                <h1 class="h1t">Aplication Form</h1>
-                <br>
+                <h1 class="h1">Aplication Form</h1>
+            </div>
+            <br>
+            <div class="tex">
                 <label for="Name">Name: </label><br>
                 <input type="text" name="Name" placeholder="Enter Name" required>
             </div>
-            <div>
+            <div class="tex">
                 <label for="contect">Contect: </label><br>
                 <input type="text" name="contect" maxlength="10" required >
             </div>
-            <div>
+            <div class="tex">
                 <label for="Email">Email:</label>
                 <br>
                 <input type="email" name="Email" required>
 
             </div>
-            <div>
+            <div class="tex">
                 <label for="Posword">Posword: </label>
                 <br>
                 <input type="password" maxlength="16" name="posword" required>
                 
             </div>
-            <div>
-                <label for="DOB">DOB: </label>
+            <div class="tex">
+                <label for="DOB">Year Of Birth: </label>
                 <br>
-                <input type="date" name="DOB">
+                <input type="number" name="DOB" maxlength="4" min="1999" max="2023">
             </div>
-            <div>
+            <div class="tex">
                 <label for="Gender">Gender: </label>
                 <br>
                 <input type="radio"  name="Gender" value="Male" >Male
                 <input type="radio" name="Gender" value="Female">Female
             </div>
             <br>
-            <div>
+            <div class="tex">
                 <label for="Resume">Upload Your Resume</label>
                 <input type="file" name="Resume" id="file">
-            </div>    
+            </div>
+
             <br>
-            <button>submit</button>
+            <div class="tex">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
     
             </div>
         </form>
