@@ -3,7 +3,7 @@
     padding: 0;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pic.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pict.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -41,6 +41,10 @@ ul li.active a{
     margin: auto;
 }
 
+.line{
+    border: 1px solid #f1a5de;
+}
+
 #tit{
     text-align:left;
     color: rgb(250,250,250);
@@ -48,15 +52,21 @@ ul li.active a{
 }
 
 .forms{
-    display: block;
-    background-color: rgba(102, 57, 57, 0.5);
-    padding: 5%; 
+    display: inline-block;
+    background-color: rgba(27, 17, 17, 0.5);
+    width: 30%;
+    padding: 4%; 
     text-align: center;
+    position: absolute;
+    left: 27%;
+    top: auto;
 }
 .h1{
-    color: aqua;
+    color: rgb(13, 219, 219);
 }
 
 .tex{
-    color: rgb(30, 133, 243);
+    color: rgb(245, 238, 177);
+    
 }
+

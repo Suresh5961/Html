@@ -20,7 +20,7 @@
         </div>
         <br>
         <br>
-        <hr>
+        <hr class="line">
 
         <form class="forms" method="post" action="./services.html">
             <div>   
@@ -33,7 +33,7 @@
             </div>
             <div class="tex">
                 <label for="contect">Contect: </label><br>
-                <input type="text" name="contect" maxlength="10" required >
+                <input type="tel" name="contect" pattern="[0-9]{4}-[0-9]{6}" placeholder="0123-89345" required>
             </div>
             <div class="tex">
                 <label for="Email">Email:</label>
@@ -42,7 +42,7 @@
 
             </div>
             <div class="tex">
-                <label for="Posword">Posword: </label>
+                <label for="Posword">Create Posword: </label>
                 <br>
                 <input type="password" maxlength="16" name="posword" required>
                 
@@ -66,7 +66,11 @@
 
             <br>
             <div class="tex">
-                <button type="submit">submit</button>
+                <button type="submit">submit
+    
+                </button>
+
+
                 <button type="reset">reset</button>
     
             </div>
