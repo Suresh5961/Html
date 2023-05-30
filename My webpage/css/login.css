@@ -19,7 +19,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: #f3ebeb;
+    color: #fff;
     padding: 6px 22px;
     border: 1px solid transparent;
     transition: 0.5s ease;
@@ -47,8 +47,8 @@ ul li.active a{
 
 #title{
     text-align:left;
-    color: rgb(250,250,250);
-    padding: 0px;
+    color: #fff;
+    padding: 1px;
 }
 
 .form-box{
