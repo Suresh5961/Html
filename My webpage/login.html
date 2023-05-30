@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman creation</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">ROMAN CRIATION</h1>
+        <div class="main">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li class="active"><a href="./login.html">Sing in</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./Aboutpage.html">About</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <hr class="line">
+
+        <div class="form-box">
+            <div class="btn-box">
+                <div id="btn"></div>
+                <button type="button" name="login" class="taggel-btn" onclick="login()">Login</button>
+                <button type="button" name="Register" class="taggel-btn"  onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="#" alt="ins">
+                <img src="#" alt="twi">
+                <img src="#" alt="fb">
+            </div>
+            <form action="" id="login" class="input-group">
+                <input type="text" class="input-field" name="Name" placeholder="ENTER NAME" required>
+                <input type="password" class="input-field" name="Password" placeholder="ENTER PASSWORD" required>
+                <input type="checkbox" class="checkbox" name="Checkbox"><span>Remember password</span>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            <form action="" id="register" class="input-group">
+                <input type="text" class="input-field" name="Name" placeholder="ENTER NAME" required>
+                <input type="email" class="input-field" name="Email" placeholder="Email id" required>
+                <input type="password" class="input-field" name="Password" placeholder="ENTER PASSWORD" required>
+                <input type="checkbox" class="checkbox" name="Checkbox"><span>I agree to terms & contition</span>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </header>  
+    <script type="text/javascript">
+        var x=document.getElementById("login")
+        var y=document.getElementById("register")
+        var z=document.getElementById("btn")
+        function register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+        }
+    </script>
+</body>
+</html>
+
+
