@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELCIUS TO FAHRENHEIT</title>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    background-color: aquamarine;
+}
+h2{
+    color: red;
+}
+#title{
+    background-color: rgb(189, 131, 243);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    width: 330px;
+    text-align: center;
+    padding: 50px;
+}
+#input_box{
+    padding-top: 45px;
+    padding-bottom: 45px;
+   
+}
+#input_field{
+    width: 250px;
+    height: 22px;
+    text-align: center;
+}
+#submit_btn{
+  background-color: #4CAF50; 
+  border-radius: 25px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+#result{
+    color: rgb(6, 106, 194);
+    padding-top: 45px;
+    font-size: 40px;
+}
+</style>
+</head>
+
+<body id="body">
+
+     <div id="title">
+        <h2>CELCIUS TO FAHRENHEIT</h2>
+
+        <div id="input_box">
+            <input type="text" id="input_field" placeholder="ENTER CELCIUS TO CONVERT" >
+        </div>
+
+        <div><button type="submit" id="submit_btn" onclick="convert()">convert</button></div>
+        <div id="result">
+
+        </div>
+    </div>
+    
+    <script>
+        function convert(){
+            let celVal = Number(document.getElementById("input_field").value)
+            let fahval =(celVal * 1.8) + 32;
+            let result = document.getElementById("result")
+            result.innerHTML = fahval.toFixed(3)
+
+        }
+      
+
+    </script>
+</body>
+</html>
