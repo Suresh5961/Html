@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb</title>
+</head>
+<body>
+    <h1>can you off and on this </h1>
+    
+
+    <button  onclick="myFunction1()">Turn On</button>
+    
+    <button onclick="myFunction2()">Turn Off</button>
+    
+    <button onclick="myFunction3()">Draw bulb</button>
+    
+    <img id="img" src="pic_bulboff.gif" alt="" style="width: 230px;">
+    
+    
+    
+    
+    <script>
+        function myFunction1() {
+          document.getElementById("img").src='Pic_bulbon.gif';
+        }
+        function myFunction2(){
+            document.getElementById("img").src='pic_bulboff.gif';
+        }
+        function myFunction3() {
+            document.getElementById("img").scr='draw_bulb.gif';
+        }
+        
+    </script>
+</body>
+</html>
