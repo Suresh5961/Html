@@ -87,16 +87,22 @@ ul li.active a{
     transition: .5s;
 }
 .social-icons{
-    margin: 30px auto;
+    margin: 42px auto;
     text-align: center;
+    
 }
 .social-icons img{
     width: 30px;
-    margin: 0 12px;
-    box-shadow: 0 0 10px 0 #f1a5de;
+    margin: 12px;
+    box-shadow: 0 0 10px 1px #f1a5de ;
     text-align: center;
     cursor: pointer;
     border-radius: 50%;
+    
+    
+}
+#link{
+    background-color: transparent;
 }
 .input-group{
     top: 180px;
