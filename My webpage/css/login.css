@@ -38,7 +38,10 @@ header{
     color: brown;
     border-bottom: 2px solid red;
 }
-
+ul li.active a{
+    color: black;
+    border-bottom: 2px solid #ff105f;
+}
 
 
 .form-box{
@@ -139,4 +142,65 @@ header{
 }
 #register{
     left:450px ;
+}
+
+@media(max-width:768px){
+     .nav ul{
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        padding: 0;
+        top: 50px;
+        left: 100%;
+    }
+    .nav ul li{
+        display: block;
+        width: 100%;
+        margin: 0;
+        background: #ff105f;
+    }
+    .nav ul li a{
+        border: none;
+        color: white;
+    }
+    .nav ul li:hover{
+        background-color: aqua;
+    }
+    .nav ul li:hover a{
+        color: rgb(22, 24, 24);
+    }
+    .nav ul li a:hover{
+        border: none;
+    }
+    .nav ul.slide{
+        left: 0;
+        transition: 2s;
+    
+    }
+    .hamburger{
+        float: right;
+        padding-right: 20px;
+        padding-top: 12px;
+
+    }
+    .hamburger .line{
+        width: 15px;
+        height: 5px;
+        background-color: aliceblue;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-box{
+        background-color: rgba(0,0,0,0.5);
+        width: 350px;
+        height: 450px;
+        position: relative;
+        margin: 55% auto;
+        padding: 0px;
+        overflow: hidden;
+    }
+    
+
 }

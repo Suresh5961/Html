@@ -37,3 +37,34 @@ span{
     color: brown;
     border-bottom: 2px solid red;
 }
+ul li.active a{
+    color: black;
+    border-bottom: 2px solid #ff105f;
+}
+.place{
+    background-color: aliceblue;
+    height: 340px;
+    width: 100%;
+}
+.setplace{
+    background-color: #ff105f;
+    height: 50px;
+    width: 50%;
+}
+
+.swap{
+    display: inline-block;
+    margin: 0 30px;
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+@media(max-width:768px){
+
+
+}
+  

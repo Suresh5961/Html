@@ -32,17 +32,16 @@ a:hover{
 
 }
 
+
 ul li.active a{
     background-color: #f1a5de;
     color: black;
-
 }
+
 .main{
     max-width: 1200px;
     margin: auto;
 }
-
-
 
 .title{
     position: absolute;

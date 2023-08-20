@@ -17,6 +17,11 @@
                 <li><a href="./Contactpage.html">CONTACT</a></li>
                 <li><a href="./Aboutpage.html">ABOUT</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
           </nav>
 
         <div class="form-box">
@@ -60,6 +65,11 @@
             y.style.left = "450px";
             z.style.left = "0";
         }
+        const hamburger = document.querySelector('.hamburger');
+        const navbar = document.querySelector('ul');
+        hamburger.addEventListener('click', ()=>{
+            navbar.classList.toggle('slide');})
+        
     </script>
 </body>
 </html>
