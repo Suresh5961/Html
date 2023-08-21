@@ -10,7 +10,7 @@ header{
     background-position: center;
    
 }
-ul{
+.main ul{
     float: right;
     list-style-type: none;
     margin-top: 42.2px;
@@ -32,7 +32,6 @@ a:hover{
 
 }
 
-
 ul li.active a{
     background-color: #f1a5de;
     color: black;
@@ -48,9 +47,6 @@ ul li.active a{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
-
-.title{
     color: #e0d2d2;
     font-size: xx-large;
     font-style: italic;
@@ -74,3 +70,24 @@ ul li.active a{
 .btn:hover{
     background-color: #f1a5de;
     color: rgb(48, 4, 92);}
+
+@media(max-width:768px){
+    .main ul li{
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+    a:hover{
+
+        background-color: none;
+        color: black;
+    
+    }
+    
+    ul li.active a{
+        background-color: #f1a5de;
+        color: black;
+    }
+    
+    
+}
