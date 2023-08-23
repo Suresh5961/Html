@@ -48,23 +48,19 @@ ul li.active a{
 }
 .setplace{
     background-color: #ff105f;
-    height: 50px;
-    width: 50%;
+    height: 240px;
+    width: 100%;
 }
 
 .swap{
     display: inline-block;
-    margin: 0 30px;
+    margin: 8px 35px;
     background-color: blue;
     height: 200px;
     width: 200px;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px 20px;
     text-align: center;
 }
 
-@media(max-width:768px){
-
-
-}
   

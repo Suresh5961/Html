@@ -28,8 +28,7 @@ header{
 }
 .nav ul li{
     display: inline;
-    margin: 0 10px;
-    line-height: 50px;
+    line-height: 120px;
 }
 .nav ul li a{
     padding: 15px 10px;
@@ -188,7 +187,7 @@ ul li.active a{
     .hamburger .line{
         width: 15px;
         height: 5px;
-        background-color: aliceblue;
+        background-color: rgb(252, 12, 52);
         display: block;
         margin-bottom: 5px;
     }
